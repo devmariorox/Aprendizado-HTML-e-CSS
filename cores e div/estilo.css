@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    background-color: blueviolet;
+    border: solid 15px;
+}
+
+body {
+    background-image: url("test.jpg"); 
+    background-size: cover;
+
+    
+}
+#titulo {
+    color: white;
+  
+}
+
+.subtitulo {
+    color: white;
+}
