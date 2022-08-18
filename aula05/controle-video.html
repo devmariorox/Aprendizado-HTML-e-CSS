@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="vierport" content="width=device-width, initial-scale=1.0">
+
+<title> videos </title>
+<style> 
+
+ </style>
+
+
+</head>
+
+
+
+<body>
+
+
+<h1>Videos</h1>
+
+<video  id="video1" width="500" weight="300" controls>
+<source src="src/drake2.mp4" type="video/mp4">
+</video>
+
+
+<h2> controles </h2>
+<input type="button" value="iniciar/pausar" onclick="playPause()">
+<input type="button" value="aumentar" onclick="aumentarVideo()">
+<input type="button" value="diminuir" onclick="diminuirVideo()">
+
+
+
+<script type="text/javascript">
+let meuvideo = document.querySelector("#video1");
+
+function playPause(){
+
+		if(meuvideo.paused){
+			meuvideo.play()
+		
+		}else{meuvideo.pause()
+		}
+	}
+	
+	
+function aumentarVideo(){
+	meuvideo.width = 700
+	meuvideo.height = 400
+}		
+	
+function diminuirVideo(){
+	meuvideo.width = 300
+	meuvideo.height = 200
+}		
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

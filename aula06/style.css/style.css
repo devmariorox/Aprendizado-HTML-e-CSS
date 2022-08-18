@@ -1,0 +1,38 @@
+.container{
+    background-color:#000;
+	min-height:100vh;
+	font-family:courier New, helvetica, sans-serif;
+	color:#84C754;
+	
+	
+	
+}
+
+
+
+.lista li{
+	list-style:none;
+	margin-top:15px;
+	
+	
+}
+
+.lista li a{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	background-color:red;
+	
+	
+	
+}
+
+.titulo{
+	color:#FFE7BA;
+	
+	
+}
+
+.lista li a:hover{
+	background-color:gray;
+}

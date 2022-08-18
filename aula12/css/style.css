@@ -1,0 +1,107 @@
+body{
+	margin-left:15vw;
+	margin-right:10vw;
+	margin-top:4vh;
+}
+
+.container-Principal{
+	display:flex;
+	
+}
+.div1{
+	background-color:purple;
+	width:40vh;
+	height:10vh;	
+	
+}
+
+.div2{
+	background-color:gray;
+	width:79vh;
+	height:10vh;
+	margin-left:10vw;
+}
+
+.banner{
+	background-color:blue;
+	width:70vw;
+	height:30vh;
+	margin-top:2vh;
+	
+	
+}
+
+.container-Secundario{
+	display:flex;
+	justify-content:space-around;
+	margin-right:95px;
+	margin-top:2vh;
+	
+}
+
+.card1{
+	background-color:orange;
+	height:30vh;
+	width:24vw;
+	
+}
+.card2{
+	background-color:red;
+	height:30vh;
+	width:24vw;
+	margin-left:2vw;
+}
+.card3{
+	background-color:green;
+	height:30vh;
+	width:24vw;
+	margin-left:2vw;
+}
+.container-Terciario{
+	display:flex;
+	justify-content:space-around;
+	margin-right:95px;
+	margin-top:2vh;
+	
+}
+.text1{
+	background-color:gray;
+	height:2vh;
+	width:24vw;
+	
+}
+.text2{
+	background-color:gray;
+	height:2vh;
+	width:24vw;
+	margin-left:2vw;
+}
+.text3{
+	background-color:gray;
+	height:2vh;
+	width:24vw;
+	margin-left:2vw;
+}
+.container-Quartiario{
+	display:flex;
+	justify-content:space-around;
+	margin-right:95px;
+	margin-top:2vh;
+}
+
+.container-Quintiario{
+	display:flex;
+	justify-content:space-around;
+	margin-right:95px;
+	margin-top:2vh;
+}
+
+@media (max-width:770px){
+	.div2{
+		margin-right:5vw;
+	}
+	
+	.card3{
+		display:none;
+	}
+}

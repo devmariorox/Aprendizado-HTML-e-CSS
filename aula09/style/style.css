@@ -1,0 +1,218 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:black;
+	padding:15px;
+	margin:15px;
+}
+
+h1{
+	font-family:arial;
+	text-align:center;
+	color:white;
+}
+
+.container-Principal{
+ display:flex;
+ justify-content:center;
+ font-family:helvetica;
+ 
+ 
+}
+
+#div1{
+	background-color:blue;
+	width:33%;
+	height:50vh;
+	text-align:center;
+	border:solid 2px gray;
+	
+}
+
+#div2{
+	background-color:yellow;
+	width:33%;
+	height:50vh;
+	text-align:center;
+	border:solid 2px gray;
+}
+
+#div3{
+	background-color:red;
+	width:33%;
+	height:50vh;
+	text-align:center;
+	border:solid 2px gray;
+	
+}
+/*@media (max-width:750px){
+	.container-Principal{flex-direction:column;}
+	#div2{background-color:green;}
+	#div1{width:100%;}
+	#div2{width:100%;}
+	#div3{width:100%;}
+}
+@media (min-width:751px) and (max-width:1000px) {
+	    #div1{
+		background-color:yellow;
+	}
+	
+		#div2{
+		background-color:blue;
+	}
+	
+		#div3{
+		background-color:gray;
+	}*/
+	
+	
+	
+	
+
+
+.container-Secundario{
+	display:flex;
+	
+}
+#divv1{
+	background-color:yellow;
+	width:25%;
+	height:50vh;
+	border-radius:200px;
+	background-attachment:fixed;
+	margin-right:20px;
+	text-align:center;
+}
+	
+
+#divv2{
+	background-color:blue;
+	width:25%;
+	height:50vh;
+	border-radius:200px;
+	margin-right:20px;
+	text-align:center
+	
+}
+
+#divv3{
+	background-color:red;
+	width:25%;
+	height:50vh;
+	border-radius:200px;
+	margin-right:20px;
+	text-align:center
+	
+}
+#divv4{
+	background-color:green;
+	width:25%;
+	height:50vh;
+	border-radius:200px;
+	margin-right:20px;
+	text-align:center
+	
+}
+#google{
+	border-radius:200px;
+	width:470px;
+	height:500px;
+	border:solid 2px yellow;
+	
+}
+#jogos{
+	border-radius:200px;
+	width:470px;
+	height:500px;
+	border:solid 2px yellow;
+}
+#telegran{
+	border-radius:200px;
+	width:470px;
+	height:500px;
+	border:solid 2px yellow;
+}
+#what{
+	border-radius:200px;
+	width:470px;
+	height:500px;
+	border:solid 2px yellow;
+}
+
+
+.botao{
+	background-color:gray;
+	border: solid 5px;
+	width:200px;
+	height:50px;
+}	
+
+@media (min-width:1000px){
+	.container-Secundario{flex-direction:column;}
+	
+	
+	#divv1{width:11%;
+	height:21vh;
+	margin-right:20px;  }
+
+		
+	#google{
+	border-radius:200px;
+	width:200px;
+	height:200px;
+	}
+	
+	
+	#divv2{width:11%;
+	height:21vh;
+	margin-right:20px; 
+	
+		}
+
+		
+	#jogos{
+	border-radius:200px;
+	width:200px;
+	height:200px;
+	}
+	
+	#divv3{width:11%;
+	height:21vh;
+	margin-right:20px;  }
+
+		
+	#telegran{
+	border-radius:200px;
+	width:200px;
+	height:200px;
+	}
+	
+	#divv4{width:11%;
+	height:21vh;
+	margin-right:20px;  }
+
+		
+	#what{
+	border-radius:200px;
+	width:200px;
+	height:200px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

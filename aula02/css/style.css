@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+	
+	background-color:green;
+	margin-left:20%;
+	margin-right:20%;
+
+}
+.img{
+	
+	border:solid 2px yellow;
+	max-width:100%;
+	
+}
